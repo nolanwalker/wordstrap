@@ -15,6 +15,7 @@
 	
 	//print_r($args);
 	$posts_array = get_posts( $args );
+
 	?>
   
   
@@ -37,7 +38,7 @@
     
     ?>
     		 	<div class="item <? if($counter == 0) {?>active<? } ?>">
-                   <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', '' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"> <? the_post_thumbnail() ?>></a>
+                   <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', '' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"> <? the_post_thumbnail() ?></a>
                     <div class="carousel-caption">
                         <h4><?php the_title(); ?></h4>
                         <p><?php the_excerpt(); ?>.</p>
