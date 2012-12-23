@@ -1,0 +1,123 @@
+/*
+Theme Name: WordStrap 1.0
+Theme URI: http://nolanwalker.com/
+Description: A WordPress Theme developed using Twitter Bootstrap v. 2
+Author: Nolan Walker
+Version: 1.0
+*/
+
+
+
+
+body {
+	padding-top: 125px;
+	padding-bottom: 40px;
+}
+  
+  
+  
+input[type="submit"], input[type="reset"] {
+	display: inline-block;
+	*display: inline;
+	/* IE7 inline-block hack */
+	
+	*zoom: 1;
+	padding: 4px 10px 4px;
+	margin-bottom: 0;
+	font-size: 13px;
+	line-height: 18px;
+	*line-height: 20px;
+	color: #333333;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	vertical-align: middle;
+	cursor: pointer;
+	background-color: #f5f5f5;
+	background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+	background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: linear-gradient(top, #ffffff, #e6e6e6);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	*background-color: #e6e6e6;
+	/* Darken IE7 buttons by default so they stand out more given they won't have borders */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	border: 1px solid #cccccc;
+	*border: 0;
+	border-bottom-color: #b3b3b3;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	*margin-left: .3em;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}
+
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+  color: #333333;
+  text-decoration: none;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+  /* Buttons in IE7 don't get borders, so darken on hover */
+
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -ms-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+
+
+.alignleft {
+	float:left;
+	padding-right: 10px;
+}
+
+
+.alignright {
+	float:right;
+	padding-left: 10px;
+}
+
+#sidebar ul {
+	list-style: none;
+}
+
+.nav-list > li > a, .nav-list .nav-header {
+	margin-right: -15px;
+	margin-left: -15px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.sidebar-nav  {
+	padding: 9px 0;
+}
+
+.sidebar-nav ul  {
+	margin: 0px;
+}
+
+.sidebar-nav ul li  {
+	margin-left: 20px;
+}
+
+
+.nav-list {
+	padding-left: 0;
+}
+
+
+
+
+
+
+
+
